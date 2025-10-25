@@ -128,6 +128,15 @@ If still no login → Send URGENT Alert
 
 ---
 
+## Project Photos
+
+| Photos | Description |
+|------------|------------|
+| <img src="images/group_photo.jpg" width="350"/> | Team |
+| <img src="images/telegram_alert.jpg" width="350"/> | Telegram Intrusion Alert |
+
+---
+
 ## Full Source Code
 ```cpp
 #include <ESP8266WiFi.h>
@@ -295,14 +304,6 @@ void sendTelegramNotification(const char* user, String message) {
 }
 
 ```
-
-## Project Photos
-
-| Photos | Description |
-|------------|------------|
-| <img src="images/group_photo.jpg" width="350"/> | Team / Group Photo |
-| <img src="images/telegram_alert.png" width="350"/> | Telegram Intrusion Alert |
-
 
 
 ## Contributors
